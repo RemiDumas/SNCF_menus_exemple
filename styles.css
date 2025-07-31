@@ -1,0 +1,9 @@
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(images/Sncf_logo.png);
+  background-size: 100px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  background-origin: content-box;
+}
