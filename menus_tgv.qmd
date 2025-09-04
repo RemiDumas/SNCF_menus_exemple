@@ -46,9 +46,27 @@ tableau_categorie("Salé")
 ```
 
 ## Apports caloriques moyens
+```{r}
+#| echo: false
 
+tab_caracteristiques(carac = "Kcal_pour_100_ml_ou_100g", lab = "en Kcal pour 100ml ou 100g", tit = "Apports caloriques moyens", col = "#7993E6")
+```
 
 ## Nutriments
+### Protéïnes
+```{r}
+#| echo: false 
+tab_caracteristiques(carac = "Protéines_100g_100ml_", lab = "en g pour 100ml ou 100g", tit = "Apports proteïniques moyens", col = "#A24545")
+```
 
+### Sucres
+```{r}
+#| echo: false
+tab_caracteristiques(carac = "Glucides_100g_100ml_", lab = "en g pour 100ml ou 100g", tit = "Apports en sucres moyens", col = "#14A636")
+```
 
 ## Prix
+```{r}
+#| echo: false
+tab_caracteristiques(carac = "Prix_au_produit", lab = "en €", tit = "Prix", col = "#92A5A5")
+```
